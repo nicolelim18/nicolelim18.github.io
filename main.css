@@ -1,0 +1,183 @@
+body {
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+.start-content {
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+    height: auto;
+    border: 0px;
+    background-color: #FFF;
+    font-size: 0px;
+}
+
+.start-content h2{
+    background-color: #edc7be;
+}
+
+.header {
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: auto;
+    border: 0px;
+    background-color: #edc7be;
+}
+
+
+.break {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 100px;
+    position: relative;
+    width: auto;
+    height: auto;
+    border: 0px;
+    background-image: url("http://scottishhighland.com/wp-content/uploads/2013/12/slide-2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.divider {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
+    width: auto;
+    height: auto;
+    border: 0px;
+    background-color: #FFF;
+}
+
+.left-box {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    border: 5px;
+    position: relative;
+    width: 50%;
+    height: auto;
+    background-color: #f9d338;
+    float: left;
+}
+
+.right-box {
+    box-sizing: border-box;
+    margin: 0;
+    padding 20px;
+    border 5px;
+    position: relative;
+    width:50%;
+    height: auto;
+    background-color:#1cd6b5;
+    float: right;
+}
+
+
+.left-box h2 {
+    text-align: right;
+/* change this to bold */
+    
+}
+
+/* footer stuff */
+
+#bottom-stuff {
+
+    position: relative;
+}
+
+#bottom{
+
+    position: fixed; 
+    background-color: darkslategrey; 
+    width:100%;
+    bottom:0;
+    height: 50px;
+    display: table;
+}
+
+
+.bottom-section {
+    width: 20%; 
+    height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+} 
+
+/* trying out hover color */
+.bottom-section:hover {
+    background-color: lightgrey;
+}
+
+
+.bottom-section h4 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*headings and text */
+
+
+h1 {
+    color: #526674;
+    font-family: 'Oswald', sans-serif;
+    font-size: 90px;
+    margin: 10px;
+    padding: 25px;
+    text-align: center;
+}
+
+h2 {
+    color: #748c9b;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    margin: 10px;
+    padding: 25px;
+    text-align: center;
+}
+
+h3 {
+    color:#FFF;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+h4 {
+    color:#FFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    margin: 10px;
+    padding: 25px;
+    text-align: center;
+}
+
+p {
+    color: #FFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+/* to make text shrink when browser decreases to < 480px */
+
+@media only screen and (max-width: 480px) {
+  h4 {
+    font-size: 30px;
+  }
+}
+
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Dancing Script', cursive; */
