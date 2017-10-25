@@ -1,7 +1,7 @@
 body {
     background-color: #FFF;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     min-height: 100%;
 }
 
@@ -9,11 +9,11 @@ body {
     box-sizing: border-box;
     margin: 0 auto;
     position: relative;
-    width: auto;
+    width: 100%;
     height: auto;
     border: 0px;
-    background-color: #000;
-    font-size: 0px;
+    background-color: #FFF;
+    display: inline-block;
 }
 
 .start-content h2{
@@ -28,6 +28,7 @@ body {
     height: auto;
     border: 0px;
     background-color: #edc7be;
+    display: inline-block;
 }
 
 
@@ -44,6 +45,8 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+
 
 .divider {
     box-sizing: border-box;
@@ -63,9 +66,10 @@ body {
     border: 5px;
     position: relative;
     width: 50%;
-    height: auto;
-    background-color: #f9d338;
+    height: 220px;
+    background-color: #cbcbcb;
     float: left;
+    display: inline-block;
 }
 
 .right-box {
@@ -75,39 +79,36 @@ body {
     border 5px;
     position: relative;
     width:50%;
-    height: auto;
+    height: 220px;
     background-color:#1cd6b5;
     float: right;
+    display: inline-block;
 }
 
 
-.left-box h2 {
-    text-align: right;
-/* change this to bold */
-    
-}
 
 /* footer stuff */
 
 #bottom-stuff {
 
     position: relative;
+    display: inline-block;
 }
 
 #bottom{
 
     position: fixed; 
-    background-color: darkslategrey; 
+    background-color: #526674; 
     width:100%;
     bottom:0;
-    height: 50px;
+    height: auto;
     display: table;
 }
 
 
 .bottom-section {
     width: 20%; 
-    height: 50px;
+    height: auto;
     display: table-cell;
     vertical-align: middle;
 } 
@@ -115,13 +116,6 @@ body {
 /* trying out hover color */
 .bottom-section:hover {
     background-color: lightgrey;
-}
-
-
-.bottom-section h4 {
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
 }
 
 
@@ -139,8 +133,8 @@ h1 {
 
 h2 {
     color: #748c9b;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
     margin: 10px;
     padding: 25px;
     text-align: center;
@@ -160,24 +154,49 @@ h4 {
     margin: 10px;
     padding: 25px;
     text-align: center;
+    
+}
+
+h5 {
+    color:#FFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    margin: 5px;
+    padding: 0;
+    text-align: center;
 }
 
 p {
     color: #FFF;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 20px;
-    text-align: left;
+    font-size: 18px;
+    text-align: center;
 }
 
 
 /* to make text shrink when browser decreases to < 480px */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 739px) {
   h4 {
     font-size: 30px;
   }
+  p {
+    font-size: 15px;   
+  }
 }
+
+@media only screen and (max-width: 531px) {
+  h5 {
+    font-size: 12px;
+  }
+  p {
+    font-size: 12px;   
+  }
+}
+
 
 /* font-family: 'Oswald', sans-serif;
 font-family: 'Open Sans Condensed', sans-serif;
-font-family: 'Dancing Script', cursive; */
+font-family: 'Dancing Script', cursive; 
+font-family: 'Quicksand', sans-serif;
+*/
